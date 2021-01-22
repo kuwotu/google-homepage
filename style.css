@@ -1,0 +1,93 @@
+/* Header */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 10px;
+    height: 100px;
+}
+
+#navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    font-weight: 100;
+padding-top: 15px;
+}
+
+    #navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+#navbar a :hover{
+    text-decoration: underline black;
+    color: black;
+    cursor: pointer;
+}
+
+#logo-containter{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+#search-container{
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#search-bar input{
+    border-radius: 20px;
+    padding: 10px 220px;
+    border: 1px solid rgb(217, 217, 217);
+}
+
+
+#button-container{
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+#button-container input{
+    padding: 10px 20px;
+    border: none;
+    background-color: #FAFAFA;
+    
+}
+
+#button-container input :hover{
+    border-radius: 1px;
+    border: 1px thin black;
+    
+}
+
+#NHS-container{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#NHS {
+    text-decoration: none;
+    color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+}
+
+main{
+    margin-bottom: 10% ;
+}

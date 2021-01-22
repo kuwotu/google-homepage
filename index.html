@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Google Homepage</title>
 </head>
 <body>
@@ -22,15 +23,24 @@
     </header>
 
     <main>
-        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google logo">
-    <form>
+        <div id="logo-containter">
+        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" height=100px width=300px alt="Google logo">
+        </div>
+        <div id="search-container">
+    <form id="search-bar">
         <input type="text" value="">
     </form>
-    <form>
+        </div>
+    <div id="button-container">
+        <form>
         <input type="button" value="Google Search">
         <input type="button" value="I'm Feeling Lucky">
-    </form>    
-        <a href="https://www.google.com/url?q=https://www.gov.uk/coronavirus&source=hpp&id=19022461&ct=3&usg=AFQjCNHStXMdOpC7bQJZHu1_IVkYRlHT4Q&sa=X&ved=0ahUKEwje4IXinbDuAhVyu3EKHethCx8Q8IcBCBE">Stay at home. Protect the NHS. Save lives</a>
+        </div>
+    </div>
+    </form>
+    <div id="NHS-container">    
+        <a id="NHS" href="https://www.google.com/url?q=https://www.gov.uk/coronavirus&source=hpp&id=19022461&ct=3&usg=AFQjCNHStXMdOpC7bQJZHu1_IVkYRlHT4Q&sa=X&ved=0ahUKEwje4IXinbDuAhVyu3EKHethCx8Q8IcBCBE">Stay at home. Protect the NHS. Save lives</a>
+    </div>
     </main>   
     <footer>
         <p>United Kingdom</p>
